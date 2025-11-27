@@ -1,9 +1,9 @@
-// 1. Hero button click interaction
+
 document.querySelector(".hero-btn").addEventListener("click", () => {
     alert("Hero button clicked!");
 });
 
-// 2. Navigation button hover
+
 const navBtn = document.querySelector(".nav-btn");
 
 navBtn.addEventListener("mouseover", () => {
@@ -14,7 +14,7 @@ navBtn.addEventListener("mouseout", () => {
     navBtn.style.background = "#f5d178";
 });
 
-// 3. Fade-in animation for cards when scrolling
+
 const cards = document.querySelectorAll(".card");
 
 window.addEventListener("scroll", () => {
@@ -27,7 +27,7 @@ window.addEventListener("scroll", () => {
     });
 });
 
-// Initial style
+
 cards.forEach(card => {
     card.style.opacity = "0";
     card.style.transform = "translateY(40px)";
